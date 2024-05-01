@@ -5,7 +5,7 @@ import wa from "../../assets/wa.svg"
 const Footer = () => {
   return (
 
-    <div className="poppins text-white bg-slate-700 h-52 flex flex-col justify-center items-center gap-y-10">
+    <div className="poppins text-black bg-slate-700 h-40 flex flex-col justify-center items-center gap-y-6">
         <div className="flex gap-x-10  ">
           <a href="https://www.instagram.com/syarifsakur_/"><img src={ig} alt="ig" className="w-10 h-10" /></a>
           <a href="https://www.linkedin.com/in/syarif-mohammad-syakur-6b8716232/"><img src={linkedn} alt="linkedn" className="w-10 h-10" /></a>
