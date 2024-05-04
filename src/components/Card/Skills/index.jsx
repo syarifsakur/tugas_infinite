@@ -8,21 +8,24 @@ import cloudfunctions from "../../../assets/cloudfuntions.svg"
 
 const About = () => {
   return (
-    <div className=" w-vh h-lvh border-2 mx-80 flex flex-col items-center" id="Skills">
+    <div className="flex">
+      <div className=" w-full h-lvh border-2 mx-10 lg:mx-80 flex flex-col items-center" id="Skills">
       <div className="mb-36 mt-14">
-        <h1 className="text-3xl font-bold mt-4">-------------------- Skills & Tech --------------------</h1>
+        <h1 className="text-xl lg:text-3xl font-bold mt-4">-------------------- Skills & Tech --------------------</h1>
       </div>
-      <div className="flex flex-wrap justify-center gap-x-6 gap-y-6">
-        <img src={react} alt="" className="w-40 h-40 animate-spin "/>
-        <img src={tailwind} alt="" className="w-40 h-40"/>
-        <img src={nodejs} alt="" className="w-40 h-40"/>
-        <img src={postman} alt="" className="w-40 h-40"/>
-        <img src={mysql} alt="" className="w-40 h-40"/>
-        <img src={laravel} alt="" className="w-40 h-40"/>
-        <img src={cloudfunctions} alt="" className="w-40 h-40"/>
+      <div className="flex flex-wrap justify-center gap-x-6 gap-y-6 ">
+        <img src={react} alt="" className="w-20 lg:w-40 h-20 lg:h-40 animate-spin"/>
+        <img src={tailwind} alt="" className="w-20 lg:w-40 h-20 lg:h-40"/>
+        <img src={nodejs} alt="" className="w-20 lg:w-40 h-20 lg:h-40"/>
+        <img src={postman} alt="" className="w-20 lg:w-40 h-20 lg:h-40"/>
+        <img src={mysql} alt="" className="w-20 lg:w-40 h-20 lg:h-40"/>
+        <img src={laravel} alt="" className="w-20 lg:w-40 h-20 lg:h-40"/>
+        <img src={cloudfunctions} alt="" className="w-20 lg:w-40 h-20 lg:h-40"/>
       </div>
     </div>
-  )
+  
+    </div>
+    )
 }
 
 export default About

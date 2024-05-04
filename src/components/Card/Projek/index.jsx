@@ -8,13 +8,13 @@ import css from "../../../assets/css-3.svg"
 
 const Projek= () => {
   return (
-    <div className="">
-      <div id="Projek" className="border-2 w-vh h-vh mx-80 py-14 flex justify-center flex-wrap poppins gap-y-20 bg-white">
+    <div className="flex">
+      <div id="Projek" className="border-2 mt-10 w-full h-full mx-10 lg:mx-80 py-14 flex justify-center flex-wrap poppins gap-y-20 bg-white">
               <div className="">
-          <h1 className="text-3xl font-bold mt-4">------------------------ Projek ------------------------</h1>
+          <h1 className="text-xl lg:text-3xl font-bold mt-4">------------------------ Projek ------------------------</h1>
         </div>
-          <div className="border-2 my-4 py-4 h-3/5 shadow-lg flex flex-col gap-y-2 items-center ">
-            <img src={projek1} alt="" className="w-64 h-72 border-2 shadow-lg"/>
+          <div className="border-2 my-4 py-4 h-2/5 lg:h-3/5 shadow-lg flex flex-col gap-y-2 items-center ">
+            <img src={projek1} alt="" className="w-48 lg:w-64 h-48 lg:h-72 border-2 shadow-lg"/>
             <p className="">Link   :  <a href="https://recyeco-fe.vercel.app/" className="text-blue-700">https://recyeco-fe.vercel.app/</a></p>
             <p className="ml-10 max-w-72">Github :   <a href="https://github.com/proxo-pt/recyeco-be-deploy.git" className="text-blue-700">https://github.com/proxo-pt/recyeco-be-deploy.git</a></p>
           </div>
@@ -30,7 +30,7 @@ const Projek= () => {
           </div>
 
           <div className="border-2 my-4 py-4 h-3/5 shadow-lg flex flex-col gap-y-2 items-center ">
-            <img src={projek2} alt="" className="w-64 h-72 border-2 shadow-lg"/>
+            <img src={projek2} alt="" className="w-32 lg:w-64 h-40 lg:h-72 border-2 shadow-lg"/>
             <p className="ml-10 max-w-72 overflow-hidden">Link   :  <a href="https://syarifsakur.github.io/F55121020_Syarif-Mohammad-Syakur/home.html" className="text-blue-700">https://syarifsakur.github.io/F55121020_Syarif-Mohammad-Syakur/home.html</a></p>
             <p className="ml-10 max-w-72">Github :   <a href="https://github.com/proxo-pt/recyeco-be-deploy.git" className="text-blue-700">https://github.com/proxo-pt/recyeco-be-deploy.git</a></p>
           </div>
