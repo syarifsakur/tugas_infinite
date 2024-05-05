@@ -1,19 +1,26 @@
-import Skills from "./components/Card/Skills";
+// import Skills from "./components/Card/Skills";
 import About from "./components/Card/About";
-import Navbar from "./components/Navbar";
-import Footer from "./components/Footer/index";
-import Projek from "./components/Card/Projek";
+// import Navbar from "./components/Navbar";
+// import Footer from "./components/Footer/index";
+// import Projek from "./components/Card/Projek";
+import {BrowserRouter, Routes, Route} from "react-router-dom";
 
 function App() {
   return (
     <>
-      <Navbar />
+        <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<About/>}/>
+      </Routes>
+    </BrowserRouter>
+    
+      {/* <Navbar />
       <div className="bg-slate-50">
         <About />
         <Skills />
         <Projek />
       </div>
-      <Footer />
+      <Footer /> */}
     </>
   );
 }
