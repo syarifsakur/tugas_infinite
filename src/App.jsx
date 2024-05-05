@@ -1,16 +1,17 @@
 // import Skills from "./components/Card/Skills";
-import About from "./components/Card/About";
+// import About from "./components/Card/About";
 // import Navbar from "./components/Navbar";
 // import Footer from "./components/Footer/index";
 // import Projek from "./components/Card/Projek";
 import {BrowserRouter, Routes, Route} from "react-router-dom";
+import Portofolio from "./pages/index";
 
 function App() {
   return (
     <>
-        <BrowserRouter>
+    <BrowserRouter>
       <Routes>
-        <Route path="/" element={<About/>}/>
+        <Route path="/" element={<Portofolio/>}/>
       </Routes>
     </BrowserRouter>
     
