@@ -12,6 +12,7 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Portofolio/>}/>
+        <Route path="/tes" element={<Portofolio/>}/>
       </Routes>
     </BrowserRouter>
     
